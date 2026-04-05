@@ -20,9 +20,9 @@ function AppContent() {
 
       <main className="max-w-7xl mx-auto">
         <Routes>
-          <Route path="/" element={<DashboardPage />} />
-          <Route path="/transactions" element={<TransactionsPage />} />
-          <Route path="/insights" element={<InsightsPage />} />
+          <Route path="/finance-dashboard/" element={<DashboardPage />} />
+          <Route path="/finance-dashboard/transactions" element={<TransactionsPage />} />
+          <Route path="/finance-dashboard/insights" element={<InsightsPage />} />
         </Routes>
       </main>
 

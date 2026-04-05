@@ -27,9 +27,9 @@ const Header = () => {
         {/* Navigation Links */}
         <nav className="flex gap-6 items-center">
           <Link
-            to="/"
+            to="/finance-dashboard/"
             className={`px-3 py-2 rounded transition ${
-              location.pathname === "/"
+              location.pathname === "/finance-dashboard/"
                 ? "bg-white text-blue-600 font-semibold"
                 : "hover:bg-blue-700"
             }`}
@@ -37,9 +37,9 @@ const Header = () => {
             Dashboard
           </Link>
           <Link
-            to="/transactions"
+            to="/finance-dashboard/transactions"
             className={`px-3 py-2 rounded transition ${
-              location.pathname === "/transactions"
+              location.pathname === "/finance-dashboard/transactions"
                 ? "bg-white text-blue-600 font-semibold"
                 : "hover:bg-blue-700"
             }`}
@@ -47,9 +47,9 @@ const Header = () => {
             Transactions
           </Link>
           <Link
-            to="/insights"
+            to="/finance-dashboard/insights"
             className={`px-3 py-2 rounded transition ${
-              location.pathname === "/insights"
+              location.pathname === "/finance-dashboard/insights"
                 ? "bg-white text-blue-600 font-semibold"
                 : "hover:bg-blue-700"
             }`}
